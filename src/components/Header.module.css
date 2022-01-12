@@ -1,0 +1,24 @@
+.header {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-heading {
+  color: #fd7e14;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.logout_btn {
+  margin: 0 8px;
+  outline: none;
+  border: none;
+  background-color: rgb(81, 19, 139);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 2rem;
+}
