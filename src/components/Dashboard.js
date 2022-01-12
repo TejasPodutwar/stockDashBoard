@@ -21,7 +21,7 @@ let optionsList = stocksSymbols.map((stockSymbol) => {
     },
     headers: {
       "x-rapidapi-host": "alpha-vantage.p.rapidapi.com",
-      "x-rapidapi-key": "23a3ef8ac9mshb40b8afa3c39e59p138f90jsn1cd0f262a278",
+      "x-rapidapi-key": process.env.React_App_REST_API_KEY,
     },
   };
   return option;
